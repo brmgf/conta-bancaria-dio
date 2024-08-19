@@ -19,6 +19,8 @@ public class ContaTerminal {
         double saldo = getSaldoConta(scanner);
 
         retornaMensagemCriacaoConta(nome, agencia, numero, saldo);
+
+        scanner.close();
     }
 
     private static String getTextoValido(Scanner scanner) {
